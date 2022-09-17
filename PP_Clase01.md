@@ -17,12 +17,15 @@ if __name__ == "__main__":
     print(suma(2,2))
     print(cuadrado(2), cuadrado(2.2))
 ```
-*Impresión en pantalla:*\
+*Impresión en pantalla:*
+
 4\
 4 4.840000000000001
 
+
 En realidad el "tipado dinámico" de python no es otra cosa que una buena memoria.\ 
 Python en lugar de asignarle una dirección de memoria a las variables, le asigna la dirección de memoria a los datos.\
+
 *Código*
 ```
 x = 10
@@ -55,7 +58,8 @@ print(x, ":", id(x)) # Se genera una dirección diferente por cada número.
 
 print(x:=10) # Operador tipo morsa.
 ```
-*Impresión en pantalla:*\
+*Impresión en pantalla:*
+
 10 addr:  2068660027920\
 Hola addr:  2068664904368\
 10 addr:  2068660027920\
@@ -98,7 +102,8 @@ if __name__ == "__main__":
     print(saludo_con_edad(mensaje, nombre, edad))
     print(saludo_con_edad(mensaje, nombre, cal_edad(2022,2003)))
 ```
-*Impresión en pantalla:*\
+*Impresión en pantalla:*
+
 Buen día Nydia\
 Hola Nydia tienes 19 años\
 Hola Nydia tienes 19 años
