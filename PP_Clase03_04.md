@@ -56,7 +56,7 @@ if __name__ == "__main__":
   
 *Impresión en pantalla:*
   
-¿Cuál es su nombre? Nydia
+¿Cuál es su nombre? Nydia\
 ¿En qué año naciste? 2003\
 Hola Nydia tienes 19 años. \
 Hola Nydia tienes 20 años. \
